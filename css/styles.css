@@ -1,0 +1,293 @@
+
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+.img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.top {
+  position: relative;
+}
+.navbar {
+  margin: 0 -15px;
+}
+.top {
+  margin: 0 -15px;
+  position: relative;
+}
+.centered {
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  margin-right: -50%;
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  transform: translate(-50%, -50%);
+}
+.second-section {
+  background-color: #E4F9F5;
+  padding: 35px;
+}
+.content {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.intro-desc {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #3da4ab;
+  line-height: 2;
+}
+.profile-img {
+  margin: 20px;
+  border-radius: 50%;
+  max-width: 40%;
+  max-height: 40%;
+}
+.image-div {
+  text-align: center;
+}
+.third-section {
+  background-color: Black;
+  padding: 38px;
+  text-align: center;
+}
+.edu {
+  color: white;
+  font-weight: 900;
+}
+.edu-desc {
+  margin-top: 40px;
+  font-size: 1.5rem;
+  color: white;
+  line-height: 2;
+}
+.edu-img {
+  margin: 40px;
+  width: 20%;
+}
+.sphs {
+  border-radius: 50%;
+}
+.fourth-section {
+  background-color: #b1b493;
+  padding: 38px;
+  text-align: center;
+}
+.new {
+  margin-top: 35px;
+  background-color: #b49c73;
+  border-radius: 2%;
+}
+.lap {
+  border-radius: 2%;
+  margin: 25px 0;
+  max-width: 80%;
+}
+.code {
+  margin-top: 25px;
+  color: white;
+  font-size: 2rem;
+}
+.horiz {
+  height: 1px;
+  width: 40%;
+  background-color: white;
+  border: none;
+}
+.code-desc {
+  line-height: 1.8;
+  margin-left: 10px;
+  font-size: 1.3rem;
+  color: white;
+}
+.card {
+  margin-bottom: 35px;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='gray' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='gray' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.content {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.separate {
+  height: 1px;
+  width: 90%;
+  background-color: white;
+  border: none;
+}
+.proj-desc {
+  line-height: 1.8;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 1.6rem;
+  color: white;
+}
+.header {
+  background-color: Black;
+  color: white;
+  font-size: 1.5rem;
+  padding-top: 10px;
+}
+.hobbies {
+  background-color: #E4F9F5;
+  padding: 38px;
+  text-align: center;
+}
+.hobby-head {
+  color: #024249;
+  font-weight: 900;
+}
+.hobby-desc{
+  margin: 30px 0;
+  font-size: 1.5rem;
+  color: #3da4ab;
+}
+.caption {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+.headphone {
+  margin: 0;
+}
+.music {
+  padding-top: 35px;
+  max-width: 70%;
+}
+.music-quote {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: #6f0000;
+}
+.music2 {
+  width: 30%;
+}
+.last {
+  background-color: #b1b493;
+  padding: 38px;
+  text-align: center;
+}
+.last-txt {
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.contact {
+  background-color: Black;
+  padding: 35px;
+  color: white;
+  text-align: center;
+}
+.cont-head {
+  font-weight: 900;
+  font-size: 3rem;
+}
+.linkedin {
+  margin: 15px;
+}
+.btn {
+  margin: 15px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .centered{
+    font-size: 1.5rem;
+  }
+  .content {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .intro-desc {
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .centered{
+    font-size: 1.2rem;
+  }
+  .content {
+    font-size: 1rem;
+  }
+  .intro-desc {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  .edu {
+    font-size: 1.5rem;
+  }
+  .edu-desc {
+    font-size: 1.2rem;
+  }
+  .edu-img {
+    margin-top: 20px;
+    width: 30%;
+  }
+  .lap {
+    max-width: 90%;
+  }
+  .code {
+    font-size: 1.3rem;
+  }
+  .horiz {
+    width: 80%;
+  }
+  .code-desc {
+    margin: 0 3px;
+    font-size: 1rem;
+  }
+  .proj-desc {
+    font-size: 1rem;
+  }
+  .content {
+    font-size: 1rem;
+    line-height: 2
+  }
+  .hobby-head {
+    font-size: 1.3rem;
+  }
+  .hobby-desc {
+    font-size: 1rem;
+    margin: 8px 0;
+  }
+  .headphone {
+    margin: 0 -30px;
+  }
+  .music {
+    max-width: 100%;
+  }
+  .music-quote {
+    font-size: 1rem;
+  }
+  .last-txt {
+    font-size: 1.2rem;
+  }
+  .contact {
+    padding-top: 20px;
+  }
+  .cont-head {
+    font-size: 1.5rem;
+  }
+  .btn {
+    margin: 15px 5px;
+  }
+  .linkedin {
+    margin: 15px 5px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .centered{
+    font-size: 1rem;
+  }
+}
